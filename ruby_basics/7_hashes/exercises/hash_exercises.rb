@@ -7,12 +7,12 @@ end
 
 def favorite_color(favorite_list)
   # return the value of the color key
-  return favorite_color[:color]
+  return favorite_list[:color]
 end
 
 def favorite_number(favorite_list)
   # use #fetch to return the value of the number key or 42 if the key is not found
-  return favorite_list(number, 42)
+  return favorite_list.fetch(:number, 42)
 end
 
 def update_favorite_movie(favorite_list, movie)
