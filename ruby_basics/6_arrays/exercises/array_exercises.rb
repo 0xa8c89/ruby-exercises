@@ -46,7 +46,7 @@ end
 
 def array_difference(original, comparison)
   # return an array of elements from the original array that are not in the comparison array
-  return comparison - original
+  return original - comparison
 end
 
 def empty_array?(array)
@@ -66,7 +66,7 @@ end
 
 def include?(array, value)
   # return true if the array includes the value
-  return arra.include?(value)
+  return array.include?(value)
 end
 
 def join(array, separator)
